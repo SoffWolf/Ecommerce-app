@@ -67,7 +67,7 @@ const App = () => {
         <button onClick={openMenu}>
           &#9776;
         </button>
-        <Link to="/">saddepressedlonelyskaterboi</Link>
+        <Link to="/">CRUZER</Link>
       </div>
     </header>
     <aside className="sidebar">
