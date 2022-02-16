@@ -16,14 +16,15 @@ __________________________________________________________
 
 
 <code>
-  	import React, { useState , useEffect }from 'react'
+	
+  	import React, { useState , useEffect } from 'react'
   	import axios from 'axios'
 
 	const [products, setProducts] = useState([])
 
 	useEffect(() => {
 		const getProduct = async () => {
-		const {data} = await axios.get("/api/products")	 //GET the data from the URL
+		const {data} = await axios.get("/api/products")	 //GET the data from the URL to the variable products
 		setProducts(data)
 	}
 	getProduct()
@@ -31,4 +32,6 @@ __________________________________________________________
 	  //
 	}
 	}, [])
+	console.log(products)
+	
 </code>
