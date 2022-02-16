@@ -11,7 +11,7 @@ foo@bar:~$ npm start
 
 __________________________________________________________
 ## API documentation
-<strong>What is this API about?</strong> This is an over-simplification example of a server, with only the implementation of the GET endpoint. Other funtionalities can be implement similarly. The API is written in ExpressJS. You can check the code in server/server.js file. 
+<strong>What is this API about?</strong> This is an over-simplification example of a server, with only the implementation of the GET endpoint. Other funtionalities can be implement similarly. The API is written in ExpressJS. You can check the code in server/server.js file. <br>
 <strong>How to use this API</strong> To utilize this API, you can perform HTTP requests to server (with the condition that the server is online). Here's a simple GET operation example in ReactJS:<br>
 
 
@@ -35,3 +35,6 @@ __________________________________________________________
 	console.log(products)
 	
 </code>
+
+<br>
+After executing the React script above, you should see the fetched object in the console tab.
